@@ -1,9 +1,10 @@
-<html>
+html>
   <head>
     <title> Mi Tienda </title>
     <link rel="icon" type="image/ico" href="/Iconos/6.png">
   </head>
   <body background="Images\fondo2.jpg">
+    <form name="frm1" action="menu.html" method="POST">
 <table border="1" align="center">
   <tr>
     <td align=center> <center><img src="images/1.png"width="160" ></td>
@@ -16,7 +17,7 @@
       <td><font face="Times New Roman" size="4" color="white"<b><b> Usuario: </b></b></td></font>
       </tr>
       <tr>
-      <td> <input type="text"></td>
+      <td> <input type="text" name="User" required>
       </tr>
       <br>
       <tr>
@@ -24,16 +25,17 @@
       </tr>
       <br>
       <tr>
-      <td><input type="password"></td><br>
+      <td><input type="password" name="Password" placeholder="Ingrese contraseña" required></td><br>
       </tr>
       <tr>
       <td align=center><input type="submit" value="Ingresar"></td>
       </tr>
       <td align=center><a href="https://es-la.facebook.com/" target="_blank"><img src="Images/2.png"width="40"></a>
-        <a href="https://www.instagram.com/?hl=es-la" target="_blank"><img src="Images/3.png"width="40"></a>
-        <a href="https://twitter.com/?lang=es" target="_blank"><img src="Images/5.png"width="40" ></td></a>
+                       <a href="https://www.instagram.com/?hl=es-la" target="_blank"><img src="Images/3.png"width="40"></a>
+                       <a href="https://twitter.com/?lang=es" target="_blank"><img src="Images/5.png"width="40" ></td></a>
       <tr>
         <td align=center><font face="Times New Roman" size="3" color="white"><a href="rec_pass.html">Olvide mi contraseña</a></td></font>
         </tr>
+        </form>
   </body>
 </html>
