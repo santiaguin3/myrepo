@@ -4,21 +4,20 @@
   </head>
   <body background="Images\fondo2.jpg">
     <br><br><br>
-    <center><font face="Times New Roman" size="5" color="white"<b><b>Formulario de registro</b></b></td></font></center>
+    <center><font face="Times New Roman" size="7" color="white"<b><b>Formulario de registro</b></b></td></font></center>
     <form name="frm1" action="menu.html" method="POST">
       <table border="0" align="center">
         <tr>
-          <br>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Nombre:</b></b></td></font>
-          <td align=center> <input type="text">
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Nombres: <font color="codigocolor">*</font></b></b></td></font>
+          <td align=center> <input type="text" name="User" placeholder="Ingrese Nombres" required></td>
           </td>
         </tr>
         <tr>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Apellidos:</b></b></td></font>
-          <td align=center> <input type="text"></td>
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Apellidos: <font color="codigocolor">*</font></b></b></td></font>
+          <td align=center> <input type="text" name="User" placeholder="Ingrese Apellidos" required></td>
         </tr>
         <tr>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Identificacion:</b></b></td></font>
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Identificacion: <font color="codigocolor">*</font></b></b></td></font>
           <td align=center> <select name="OS">
    <option value="1">TI</option>
    <option value="2">CC</option>
@@ -28,69 +27,77 @@
 </select></td>
         </tr>
         <tr>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Nro. de identificacion:</b></b></td></font>
-          <td align=center> <input type="text"></td>
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Nro. de identificacion: <font color="codigocolor">*</font></b></b></td></font>
+          <td align=center> <input type="text" name="User" placeholder="Ingrese Numero de Identificacion" required></td>
         </tr>
         <tr>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Genero:</b></b></td></font>
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Genero: <font color="codigocolor">*</font></b></b></td></font>
           <td align=center> <select name="OS">
-   <option value="1">Windows Vista</option>
-   <option value="2">Windows 7</option>
-   <option value="3">Windows XP</option>
-   <option value="10">Fedora</option>
-   <option value="11">Debian</option>
-   <option value="12">Suse</option>
+   <option value="1">Femenino</option>
+   <option value="2">Masculino</option>
+   <option value="3">Otro</option>
 </select></td>
         </tr>
         <tr>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Telefono</b></b></td></font>
-          <td align=center> <input type="text"></td>
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Telefono:</b></b></td></font>
+          <td align=center> <input type="text" name="User" placeholder="Ingrese Numero de Telefono"></td>
         </tr>
         <tr>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Celular</b></b></td></font>
-          <td align=center> <input type="text"></td>
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Celular: <font color="codigocolor">*</font></b></b></td></font>
+          <td align=center> <input type="text" name="User" placeholder="Ingrese Numero de Celular" required></td>
         </tr><tr>
           <br>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Departamento nac</b></b></td></font>
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Departamento nac: <font color="codigocolor">*</font></b></b></td></font>
           <td align=center> <select name="OS">
-   <option value="1">Windows Vista</option>
-   <option value="2">Windows 7</option>
-   <option value="3">Windows XP</option>
-   <option value="10">Fedora</option>
-   <option value="11">Debian</option>
-   <option value="12">Suse</option>
+   <option value="1">Antioquia</option>
+   <option value="2">Atlantico</option>
+   <option value="3">Arauca</option>
+   <option value="4">Caqueta</option>
+   <option value="5">Caldas</option>
+   <option value="6">Santander</option>
+   <option value="7">Meta</option>
+   <option value="8">Cundinamarca</option>
+   <option value="9">Nariño</option>
+   <option value="10">Valle del cauca</option>
 </select></td>
         </tr>
         <tr>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Ciudad nac</b></b></td></font>
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Ciudad nac: <font color="codigocolor">*</font></b></b></td></font>
           <td align=center> <select name="OS">
-   <option value="1">Windows Vista</option>
-   <option value="2">Windows 7</option>
-   <option value="3">Windows XP</option>
-   <option value="10">Fedora</option>
-   <option value="11">Debian</option>
-   <option value="12">Suse</option>
+   <option value="1">Pasto</option>
+   <option value="2">Tuquerres</option>
+   <option value="3">La union</option>
+   <option value="4">Tumaco</option>
+   <option value="5">Consaca</option>
+   <option value="6">Ipiales</option>
+   <option value="7">Policarpa</option>
+   <option value="8">La florida</option>
+   <option value="9">Nariño</option>
+   <option value="10">Yaquanquer</option>
 </select></td>
         </tr>
         <tr>
           <br>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Correo electronico</b></b></td></font>
-          <td align=center> <input type="text" name="User" placeholder="Ingrese usuario" required></td>
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Correo electronico: <font color="codigocolor">*</font></b></b></td></font>
+          <td align=center> <input type="text" name="User" placeholder="Ingrese correo electronico" required></td>
         </tr>
         <tr>
           <br>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Contraseña</b></b></td></font>
-          <td align=center> <input type="text"></td>
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Contraseña: <font color="codigocolor">*</font></b></b></td></font>
+          <td align=center> <input type="text" name="User" placeholder="Ingrese Contraseña" required></td>
         </tr>
         <tr>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Confirmar contraseña</b></b></td></font>
-          <td align=center> <input type="text"></td>
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Confirmar contraseña: <font color="codigocolor">*</font></b></b></td></font>
+          <td align=center> <input type="text" name="User" placeholder="Repita Contraseña" required></td>
         </tr>
         <tr>
-          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Foto</b></b></td></font>
+          <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Foto:</b></b></td></font>
             <td><input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple></td>
           </td>
         </tr>
+      </table>
+      <br><br>
+      <center><input type="submit" value="Registrarse"></center>
       </form>
 </body>
 </html>
