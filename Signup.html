@@ -9,16 +9,16 @@
       <table border="0" align="center">
         <tr>
           <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Nombres: <font color="codigocolor">*</font></b></b></td></font>
-          <td align=center> <input type="text" name="User" placeholder="Ingrese Nombres" required></td>
+          <td align=center> <input type="text" name="User" placeholder="Ingrese Nombres" required class="soloNumeros" min="1" /></td>
           </td>
         </tr>
         <tr>
           <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Apellidos: <font color="codigocolor">*</font></b></b></td></font>
-          <td align=center> <input type="text" name="User" placeholder="Ingrese Apellidos" required></td>
+          <td align=center> <input type="text" name="User" placeholder="Ingrese Apellidos" required onkeyup = "this.value=this.value.toUpperCase()" /></td>
         </tr>
         <tr>
           <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Identificacion: <font color="codigocolor">*</font></b></b></td></font>
-          <td align=center> <select name="OS">
+          <td align=center><select name="Seleccionar">
    <option value="1">TI</option>
    <option value="2">CC</option>
    <option value="3">CE</option>
@@ -28,7 +28,7 @@
         </tr>
         <tr>
           <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Nro. de identificacion: <font color="codigocolor">*</font></b></b></td></font>
-          <td align=center> <input type="text" name="User" placeholder="Ingrese Numero de Identificacion" required></td>
+          <td align=center> <input type="number" name="Numero" placeholder="Ingrese Numero de Identificacion" required></td>
         </tr>
         <tr>
           <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Genero: <font color="codigocolor">*</font></b></b></td></font>
