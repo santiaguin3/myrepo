@@ -5,6 +5,7 @@
   <body background="Images\fondo2.jpg">
     <br><br><br>
     <center><font face="Times New Roman" size="7" color="white"<b><b>Formulario de registro</b></b></td></font></center>
+
     <form name="frm1" action="menu.html" method="POST">
       <table border="0" align="center">
         <tr>
@@ -29,7 +30,7 @@
         </tr>
         <tr>
           <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Nro. de identificacion: <font color="codigocolor">*</font></b></b></td></font>
-          <td align=center> <input type="number" name="Numero" placeholder="Ingrese Numero de Identificacion" required></td>
+          <td align=center> <input type="text" value="" maxlength="20"onkeypress="if (event.keyCode < 45 || event.keyCode >57) event.returnValue = false; required" placeholder="Nro Identificacion" required></td>
         </tr>
         <tr>
           <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Genero: <font color="codigocolor">*</font></b></b></td></font>
@@ -88,11 +89,11 @@
         <tr>
           <br>
           <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Contraseña: <font color="codigocolor">*</font></b></b></td></font>
-          <td align=center> <input type="text" name="User" placeholder="Ingrese Contraseña" required></td>
+          <td align=center> <input type="password" name="User" placeholder="Ingrese Contraseña" required></td>
         </tr>
         <tr>
           <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Confirmar contraseña: <font color="codigocolor">*</font></b></b></td></font>
-          <td align=center> <input type="text" name="User" placeholder="Repita Contraseña" required></td>
+          <td align=center> <input type="password" name="User" placeholder="Repita Contraseña" required></td>
         </tr>
         <tr>
           <td align=center ><font face="Times New Roman" size="4" color="white"<b><b>Foto:</b></b></td></font>
